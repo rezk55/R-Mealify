@@ -1,0 +1,106 @@
+
+.nav .mode input:checked + label .dark {
+    opacity: 0;
+}
+
+.nav .mode input:checked + label .light {
+    opacity: 1;
+
+}
+
+
+:root:has(.mode input:checked) body {
+    background-color: #202020;
+    color: #fff;
+  }
+
+  body:has(.mode input:checked) :is(#home, #gallery, #home .btn-video .icon::before ) {
+    background-color: #252525 ;
+  }
+
+  body:has(.mode input:checked) .home .text p {
+    color:#9f9f9f;
+  }
+
+  body:has(.mode input:checked) :is( .nav, .chefs .card, .chefs .card .img .wave, .contact .form ){
+    background-color:#171717;
+  }
+
+  body:has(.mode input:checked) .contact .card h3 {
+    color: #adadad;
+  }
+
+  body:has(.mode input:checked) :is(.home .text .btn-video .icon, .contact .card .icon,
+   .btn-main ) {
+    background-color: #c17e1f;
+  }
+  
+  body:has(.mode input:checked) .nav .logo .dot::after {
+    color: #c17e1f;
+  }
+
+  body:has(.mode input:checked) .nav .menu .list li .active {
+    color: #fff;
+  }
+
+  body:has(.mode input:checked) .nav .menu .list li a:hover {
+    color: #fff;
+  }
+
+  body:has(.mode input:checked) .nav .menu .list li a::before {
+    background-color: #c17e1f;
+  }
+
+  body:has(.mode input:checked) .home .text .btn-video:hover {
+    color: #c17e1f;
+  }
+
+
+  body:has(.mode input:checked) .home .text h2 {
+    color: #fff;
+  }
+
+  body:has(.mode input:checked) .home .text .btn-video .icon::after, .btn {
+    background-color: #171717;
+  }
+
+  body:has(.mode input:checked) .btn {
+    color: #171717;
+  }
+
+  body:has(.mode input:checked) .btn-main:hover {
+    background-color: #d78c23 !important;
+  }
+
+  body:has(.mode input:checked) .title span {
+   color: #d78c23 ;
+  }
+
+  body:has(.mode input:checked) .home .text .btn-video .icon::before {
+    background-color: #252525;
+  }
+
+  body:has(.mode input:checked) .contact .card i {
+    color:  #252525;
+   }
+
+body:has(.mode input:checked) .contact .card {
+    background-color: #0d0d0d;
+}
+
+body:has(.mode input:checked) .contact form :is(input, textarea):focus {
+    border-color: #c17e1f;
+}
+
+body:has(.mode input:checked) .footer .touch i {
+    color: #c17e1f;
+}
+
+body:has(.mode input:checked) .footer .card .mealify h2::after {
+    color: #c17e1f;
+}
+
+body:has(.mode input:checked) .nav .list {
+  background-color:#171717;
+}
+

@@ -1,0 +1,33 @@
+
+@keyframes shake {
+    0% {
+        left:0;
+        top: 0;
+        transform: rotate(0);
+    }
+    20% {
+        left: 3px;
+        top: 3px;
+        transform: rotate(2deg);
+    }
+    40% {
+        left: 5px;
+        top: -3px;
+        transform: rotate(0);
+    }
+    60% {
+        left: 2px;
+        top: 2px;
+        transform: rotate(-2deg);
+    }
+    80% {
+        left: 1px;
+        top:  -1px;
+        transform: rotate(-1deg);
+    }
+    100% {
+        left: 0;
+        top: 0;
+        transform: rotate( 0,0);
+    }
+}
